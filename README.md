@@ -26,7 +26,7 @@ dependencies: [
 .target(
     ...
     dependencies: [
-        "PlayerCacher",
+        .productItem(name: "PlayerCacher", package: "Player-Cacher-Demo"),
     ],
     ...
 )
